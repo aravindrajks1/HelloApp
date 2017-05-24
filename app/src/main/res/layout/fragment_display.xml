@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aravind.dialerapp.DisplayFragment">
+
+    <activity
+        android:name=".MakeCommentActivity"
+        android:configChanges="orientation|screenSize"
+        android:label="Comment"
+        android:theme="@android:style/Theme.Holo.Light.Dialog"></activity>
+
+</FrameLayout>

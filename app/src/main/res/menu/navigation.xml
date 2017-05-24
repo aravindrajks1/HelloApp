@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        <item
+            android:id="@+id/navigation_calls"
+            android:icon="@android:drawable/sym_action_call"
+            android:title="@string/title_calls" />
+    -->
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/title_search" />
+
+    <item
+        android:id="@+id/navigation_add_to_contacts"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/title_add_to_contacts" />
+
+    <item
+        android:id="@+id/navigation_Displaycontacts"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Display contacts" />
+
+    <item
+        android:id="@+id/calllog"
+        android:icon="@android:drawable/sym_action_call"
+        android:title="RecentCalls" />
+
+
+    <item
+        android:id="@+id/navigation_addcontact"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="AddContact" />
+
+
+</menu>
